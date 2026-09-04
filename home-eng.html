@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
          <!-- General -->
@@ -7,8 +7,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>SciFly - AI Environmental monitoring</title>
-        <meta name="description" content="AI Environmental monitoring">
+        <title>SciFly — AI Environmental Monitoring and Pelican Research</title>
+        <meta name="description" content="SciFly uses artificial intelligence and computer vision for environmental monitoring: counting Dalmatian and Great White Pelicans from drone imagery and tracking rare species populations.">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="author" content="SciFly">
+
+        <!-- Canonical and language alternates -->
+
+        <link rel="canonical" href="https://scifly.ai/home-eng.html">
+        <link rel="alternate" hreflang="ru" href="https://scifly.ai/">
+        <link rel="alternate" hreflang="en" href="https://scifly.ai/home-eng.html">
+        <link rel="alternate" hreflang="x-default" href="https://scifly.ai/">
+
+        <!-- Open Graph -->
+
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="SciFly">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="ru_RU">
+        <meta property="og:url" content="https://scifly.ai/home-eng.html">
+        <meta property="og:title" content="SciFly — AI Environmental Monitoring and Pelican Research">
+        <meta property="og:description" content="SciFly uses artificial intelligence and computer vision for environmental monitoring: counting Dalmatian and Great White Pelicans from drone imagery and tracking rare species populations.">
+        <meta property="og:image" content="https://scifly.ai/assets/hero-pic-2.webp">
+        <meta property="og:image:alt" content="SciFly — AI Environmental Monitoring and Pelican Research">
+
+        <!-- Twitter -->
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="SciFly — AI Environmental Monitoring and Pelican Research">
+        <meta name="twitter:description" content="SciFly uses artificial intelligence and computer vision for environmental monitoring: counting Dalmatian and Great White Pelicans from drone imagery and tracking rare species populations.">
+        <meta name="twitter:image" content="https://scifly.ai/assets/hero-pic-2.webp">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -18,8 +47,9 @@
 
         <!-- CSS CDN -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+        <link rel="preload" as="image" href="./assets/hero-pic-2.webp" type="image/webp" fetchpriority="high">
 
         <!-- CSS custom -->
 
@@ -31,7 +61,34 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
         
-        <!-- Google tag (gtag.js) -->
+        <!-- Structured data -->
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://scifly.ai/#organization",
+              "name": "SciFly",
+              "url": "https://scifly.ai/",
+              "logo": "https://scifly.ai/assets/favicon.png",
+              "email": "hello@scifly.ai",
+              "description": "A community of ecology and IT specialists applying artificial intelligence to environmental monitoring and rare species conservation."
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://scifly.ai/#website",
+              "url": "https://scifly.ai/",
+              "name": "SciFly",
+              "inLanguage": "en",
+              "publisher": {
+                "@id": "https://scifly.ai/#organization"
+              }
+            }
+          ]
+        }
+        </script>
 
     </head>
 
@@ -55,6 +112,7 @@
                     <a href="#about">About</a>
                     <a href="#team">Team</a>
                     <a href="#projects">Projects</a>
+                    <a href="./publications-eng.html">Publications</a>
                     <a href="mailto:hello@scifly.ai">hello@scifly.ai</a>
                     <a class="language-link" href="./index.html"><iconify-icon icon="iconoir:language"></iconify-icon>Ru</a>
                 </ul>
@@ -68,7 +126,7 @@
 
             <section class="hero">
                 <h1>AI Environmental monitoring</h1>
-                <img src="./assets/hero-pic-2.jpg"/>
+                <img src="./assets/hero-pic-2.webp" alt="Aerial view of a pelican colony — SciFly environmental monitoring" width="1600" height="1067" fetchpriority="high" decoding="async">
             </section>
 
             <!-- Projects -->
@@ -80,7 +138,7 @@
                 <div class="project-wrap">
                     <a href="./pelican-project-eng.html">
                         <div class="project-card">
-                            <img class="preview" src="./assets/project-1-card.png"/>
+                            <img class="preview" src="./assets/project-1-card.webp" alt="Dalmatian pelican breeding colony captured by quadcopter" width="1392" height="698" loading="lazy" decoding="async">
                             <div class="card-left-col">
                                     <div class="description">
                                         <h3>Conservation of Dalmatian and Pink Pelicans</h3>
@@ -103,7 +161,7 @@
 
                     <div class="project-card-col">
                         <div class="project-card-short">
-                            <img class="preview" src="./assets/project-2-card.JPG"/>
+                            <img class="preview" src="./assets/project-2-card.webp" alt="Australian pelican colony" width="1600" height="1199" loading="lazy" decoding="async">
                             <div class="card-left-col">
                                     <div class="description-short">
                                         <h3>Monitoring Australian pelican colonies</h3>
@@ -112,7 +170,7 @@
                             </div>
                         </div>
                         <div class="project-card-short">
-                            <img class="preview" src="./assets/project-3-card.jpg"/>
+                            <img class="preview" src="./assets/project-3-card.webp" alt="Saiga antelopes on the steppe" width="1600" height="1062" loading="lazy" decoding="async">
                             <div class="card-left-col">
                                     <div class="description-short">
                                         <h3>Saiga monitoring</h3>
@@ -141,8 +199,8 @@
                     </p>    
                 </div>
                 <div class="abt-img">
-                    <img src="./assets/about-2.jpg"/>
-                    <img src="./assets/about.jpg"/>    
+                    <img src="./assets/about-2.webp" alt="The SciFly team during field work" width="1600" height="1067" loading="lazy" decoding="async">
+                    <img src="./assets/about.webp" alt="Launching a quadcopter to survey a pelican colony" width="1600" height="1067" loading="lazy" decoding="async">    
                 </div>
             </section>
 
@@ -153,19 +211,19 @@
                 <div class="news-wrap">
                     <a href="https://vm.ru/news/1083048-uchenye-moskovskogo-zooparka-poschitali-pelikanov-v-rossii-za-30-millisekund">
                         <div class="news-card">
-                            <img class="preview" src="./assets/publication-1.jpg"/>
+                            <img class="preview" src="./assets/publication-1.webp" alt="Vechernyaya Moskva article on AI-based pelican counting" width="1200" height="800" loading="lazy" decoding="async">
                             <h5>Scientists from the Moscow Zoo have calculated pelicans in Russia in 30 milliseconds</h5>
                         </div>     
                     </a>
                     <a href="https://www.la-croix.com/Culture/Le-Mystere-lile-pelicans-redorer-blason-pelicans-blancs-2023-08-21-1201279516">
                         <div class="news-card">
-                            <img class="preview" src="./assets/publication-2.jpg"/>
+                            <img class="preview" src="./assets/publication-2.webp" alt="La Croix article about great white pelicans" width="729" height="481" loading="lazy" decoding="async">
                             <h5>LaCroix - « Le Mystère de l’île aux pélicans » : redorer le blason des pélicans blancs</h5>
                         </div>     
                     </a>
                     <a href="./conference-publication-eng.html">
                         <div class="news-card">
-                            <img class="preview" src="./assets/publication-3.jpg"/>
+                            <img class="preview" src="./assets/publication-3.webp" alt="All-Russian conference on biodiversity of Southern Russia" width="1600" height="1067" loading="lazy" decoding="async">
                             <h5>All-Russian Conference “Topical Issues in the Study and Conservation of Biological and Landscape Diversity in Southern Russia”</h5>
                         </div>     
                     </a>
@@ -178,46 +236,32 @@
             <section class="projects">
                 <h2>Articles and Publications</h2>
                 <div class="publications-wrap">
-                    <a href="https://drive.google.com/file/d/1RBnrJAEqLZ2xHExsYIIvvRpRWFhVWYcJ/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Pelicans of the Volgograd and Kalmyk Sarpa: Some Data on Distribution and Population in 2021
-                        </p>
+                    <a href="./publications/manych-populations-2024-eng.html" class="publication-item-link">
+                        <p>On the current state of Dalmatian and Great White Pelican populations (Pelecanus crispus, Pelecanus onocrotalus) in the Manych region</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://drive.google.com/file/d/1k5VCfUK-fsjfSscg7mA9SW-7NJgfjLLu/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Issues of Zoo Culture and Ecology, No. 3
-                        </p>
+                    <a href="./publications/sarpa-pelicans-2021-eng.html" class="publication-item-link">
+                        <p>Pelicans of the Volgograd and Kalmyk Sarpa lakes: some data on the distribution and numbers in 2021</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://drive.google.com/file/d/1ile4ofgUyuwvgEwtU-qAziZR5Z70LIGD/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Current Issues in Bird Conservation in Russia
-                        </p>
+                    <a href="./publications/zooculture-breeding-2019-eng.html" class="publication-item-link">
+                        <p>Great White and Dalmatian Pelicans: materials for breeding in captivity (Moscow Zoo) and biology in nature (Manych Lake)</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://docs.google.com/document/d/12eyQDoXlKa3yGYwfwZToorif8ZRfk9mz/edit?usp=sharing&ouid=102873735419294287355&rtpof=true&sd=true" class="publication-item-link" target="_blank">
-                        <p>
-                            The Pelicans of Manych: On Factors Affecting Their Well-being
-                        </p>
+                    <a href="./publications/manych-factors-eng.html" class="publication-item-link">
+                        <p>Pelicans of the Manych: on the factors affecting their well-being</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://drive.google.com/file/d/1H2XMsQpLuoItaiObOC85X_JgGcxUPxXr/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Comprehensive International Scientific and Industrial Program 'Conservation of Dalmatian and Pink Pelicans'
-                        </p>
+                    <a href="./publications/eaza-programme-report-2023-eng.html" class="publication-item-link">
+                        <p>On the EARAZA programme: conservation of the Dalmatian and Great White Pelican</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://drive.google.com/file/d/1H-gdOJHiviuDWPRZ6jjRd-kIxK0yXysY/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Current Issues in the Study and Conservation of Biological and Landscape Diversity in Southern Russia
-                        </p>
+                    <a href="./publications/eaza-programme-2020-eng.html" class="publication-item-link">
+                        <p>International research and conservation programme “Conservation of the Dalmatian and Great White Pelican”</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
-                    <a href="https://drive.google.com/file/d/1H-gdOJHiviuDWPRZ6jjRd-kIxK0yXysY/view?usp=sharing" class="publication-item-link" target="_blank">
-                        <p>
-                            Ornithological Studies in the Countries of Northern Asia
-                        </p>
+                    <a href="./publications-eng.html" class="publication-item-link">
+                        <p>All publications →</p>
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.4 18L5 16.6L14.6 7H6V5h12v12h-2V8.4z"/></svg>
                     </a>
                 </div>
@@ -230,7 +274,7 @@
                 <div class="team-wrap">
                     <div class="team-big-row">
                         <div class="team-card-big">
-                            <img src="./assets/roman-anoshin.jpg">
+                            <img src="./assets/roman-anoshin.webp" alt="Roman Anoshin — Scientific Secretary of the Moscow Zoo" width="660" height="661" loading="lazy" decoding="async">
                             <div class="card-info">
                                 <h5>Roman Anoshin</h5>
                                 <p>Scientific Secretary of the State Autonomous Institution “Moscow Zoo,” Candidate of Biological Sciences.</p>
@@ -238,7 +282,7 @@
                             </div>
                         </div>
                         <div class="team-card-big">
-                            <img src="./assets/alexander-kuzovenko.jpg">
+                            <img src="./assets/alexander-kuzovenko.webp" alt="Alexander Kuzovenko — Deputy Director of the Samara Zoo" width="660" height="661" loading="lazy" decoding="async">
                             <div class="card-info">
                                 <h5>Alexander Kuzovenko</h5>
                                 <p>Deputy Director for Development and Scientific and Educational Work, State Budgetary Institution "Samara Zoo," Candidate of Biological Sciences.</p>
@@ -247,42 +291,42 @@
                         </div>
                     </div>
                     <div class="team-card-small">
-                        <img src="./assets/dmitry-anoshin.png">
+                        <img src="./assets/dmitry-anoshin.webp" alt="Dmitry Anoshin — SciFly project initiator and coordinator" width="700" height="701" loading="lazy" decoding="async">
                         <div class="card-info">
                             <h5>Dmitry Anoshin</h5>
                             <p>Project initiator and coordinator, data engineering consultant</p>    
                         </div>
                     </div>
                     <div class="team-card-small">
-                        <img src="./assets/vladimir-valeev-2.jpg">
+                        <img src="./assets/vladimir-valeev-2.webp" alt="Vladimir Valeev — Head of Machine Learning" width="700" height="700" loading="lazy" decoding="async">
                         <div class="card-info">
                             <h5>Vladimir Valeev</h5>
                             <p>Data Science Team Lead</p>    
                         </div>
                     </div>
                     <div class="team-card-small">
-                        <img src="./assets/olga-rudakova.png">
+                        <img src="./assets/olga-rudakova.webp" alt="Olga Rudakova — Data Specialist" width="700" height="701" loading="lazy" decoding="async">
                         <div class="card-info">
                             <h5>Olga Rudakova</h5>
                             <p>Data Scientist</p>    
                         </div>
                     </div>
                     <div class="team-card-small">
-                        <img src="./assets/vsevolod-kozlov.png">
+                        <img src="./assets/vsevolod-kozlov.webp" alt="Vsevolod Kozlov — Machine Learning Engineer" width="700" height="701" loading="lazy" decoding="async">
                         <div class="card-info">
                             <h5>Vsevolod Kozlov</h5>
                             <p>ML Engineer</p>    
                         </div>
                     </div>
                         <div class="team-card-small">
-                            <img src="./assets/anna-shiyan.png">
+                            <img src="./assets/anna-shiyan.webp" alt="Anna Shiyan — Researcher" width="700" height="701" loading="lazy" decoding="async">
                             <div class="card-info">
                                 <h5>Anna Shiyan</h5>
                                 <p>Research scientist</p>    
                             </div>
                         </div>
                         <div class="team-card-small">
-                            <img src="./assets/ekaterina-sovetkina.png">
+                            <img src="./assets/ekaterina-sovetkina.webp" alt="Ekaterina Sovetkina — Data Warehouse Analyst" width="700" height="701" loading="lazy" decoding="async">
                             <div class="card-info">
                                 <h5>Ekaterina Sovetkina</h5>
                                 <p>DWH analyst</p>    
@@ -294,25 +338,23 @@
                 </div>
             </section>
 
-            <!-- Publications -->
-            <!-- <section id="publications">
-                <h2>Публикации</h2>
-            </section> -->
 
             <!-- Footer -->
 
             <footer>
-                <img src="./assets/footer-pic.jpg" />
+                <img src="./assets/footer-pic.webp" alt="Pelicans on the water" width="987" height="430" loading="lazy" decoding="async">
                     <ul class="footer-list">
                         <a href="#about">About</a>
                         <a href="#team">Team</a>
                         <a href="#projects">Projects</a>
+                        <a href="./publications-eng.html">Publications</a>
+                    <a href="./publications-eng.html">Publications</a>
                         <a href="mailto:hello@scifly.ai">hello@scifly.ai</a>
                     </ul>
             </footer>
 
         </main>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script defer src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
 
 
     </body>

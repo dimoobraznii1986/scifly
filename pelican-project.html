@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 
     <head>
          <!-- General -->
@@ -7,8 +7,37 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>SciFly - Экомониторинг при помощи ИИ</title>
-        <meta name="description" content="Экомониторинг при помощи ИИ">
+        <title>Сохранение кудрявого и розового пеликанов — проект SciFly</title>
+        <meta name="description" content="ML-пайплайн для учёта кудрявого и розового пеликанов: съёмка гнездовых колоний с квадрокоптера, разметка изображений, компьютерное зрение и автоматический подсчёт птиц.">
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+        <meta name="theme-color" content="#ffffff">
+        <meta name="author" content="SciFly">
+
+        <!-- Canonical and language alternates -->
+
+        <link rel="canonical" href="https://scifly.ai/pelican-project.html">
+        <link rel="alternate" hreflang="ru" href="https://scifly.ai/pelican-project.html">
+        <link rel="alternate" hreflang="en" href="https://scifly.ai/pelican-project-eng.html">
+        <link rel="alternate" hreflang="x-default" href="https://scifly.ai/pelican-project.html">
+
+        <!-- Open Graph -->
+
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="SciFly">
+        <meta property="og:locale" content="ru_RU">
+        <meta property="og:locale:alternate" content="en_US">
+        <meta property="og:url" content="https://scifly.ai/pelican-project.html">
+        <meta property="og:title" content="Сохранение кудрявого и розового пеликанов — проект SciFly">
+        <meta property="og:description" content="ML-пайплайн для учёта кудрявого и розового пеликанов: съёмка гнездовых колоний с квадрокоптера, разметка изображений, компьютерное зрение и автоматический подсчёт птиц.">
+        <meta property="og:image" content="https://scifly.ai/assets/project-1-card.webp">
+        <meta property="og:image:alt" content="Сохранение кудрявого и розового пеликанов — проект SciFly">
+
+        <!-- Twitter -->
+
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Сохранение кудрявого и розового пеликанов — проект SciFly">
+        <meta name="twitter:description" content="ML-пайплайн для учёта кудрявого и розового пеликанов: съёмка гнездовых колоний с квадрокоптера, разметка изображений, компьютерное зрение и автоматический подсчёт птиц.">
+        <meta name="twitter:image" content="https://scifly.ai/assets/project-1-card.webp">
 
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -18,8 +47,9 @@
 
         <!-- CSS CDN -->
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+        <link rel="preload" as="image" href="./assets/hero-pic.webp" type="image/webp" fetchpriority="high">
 
         <!-- CSS custom -->
 
@@ -31,7 +61,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
         
-        <!-- Google tag (gtag.js) -->
+        <!-- Structured data -->
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "Organization",
+              "@id": "https://scifly.ai/#organization",
+              "name": "SciFly",
+              "url": "https://scifly.ai/",
+              "logo": "https://scifly.ai/assets/favicon.png",
+              "email": "hello@scifly.ai",
+              "description": "A community of ecology and IT specialists applying artificial intelligence to environmental monitoring and rare species conservation."
+            },
+            {
+              "@type": "Article",
+              "@id": "https://scifly.ai/pelican-project.html#article",
+              "url": "https://scifly.ai/pelican-project.html",
+              "headline": "Сохранение кудрявого и розового пеликанов",
+              "description": "ML-пайплайн для учёта кудрявого и розового пеликанов: съёмка гнездовых колоний с квадрокоптера, разметка изображений, компьютерное зрение и автоматический подсчёт птиц.",
+              "image": "https://scifly.ai/assets/project-1-card.webp",
+              "inLanguage": "ru",
+              "author": {
+                "@id": "https://scifly.ai/#organization"
+              },
+              "publisher": {
+                "@id": "https://scifly.ai/#organization"
+              },
+              "isPartOf": {
+                "@id": "https://scifly.ai/#website"
+              }
+            }
+          ]
+        }
+        </script>
 
     </head>
 
@@ -70,7 +135,7 @@
                 <div>
                     <h1>Сохранение кудрявого и розового пеликанов</h1>
                 </div>
-                <img src="./assets/hero-pic.JPG"/>
+                <img src="./assets/hero-pic.webp" alt="Кудрявые и розовые пеликаны в гнездовой колонии" width="1600" height="1093" fetchpriority="high" decoding="async">
             </section>
 
             <!-- Article -->
@@ -121,12 +186,12 @@
                             В 2020 году был начат регулярный сбор данных по этим колониям и за это время нам удалось собрать и сформировать архив по каждому году наблюдений. 
                         </p>
                         <figure>
-                            <img src="./assets/pel-pic1.JPG" alt="Рис.1. Пример первичных данных, полученных с квадрокоптера (2021)">
+                            <img src="./assets/pel-pic1.webp" alt="Рис.1. Пример первичных данных, полученных с квадрокоптера (2021)" width="1600" height="1200" loading="lazy" decoding="async">
                             <figcaption>Рис 1 Пример первичных данных, полученных с квадрокоптера (2021)</figcaption>
                         </figure>
                         
                         <figure>
-                            <img src="./assets/pel-pic2.jpg" alt="Рис.2. Пример первичных данных, полученных с квадрокоптера (2023)">
+                            <img src="./assets/pel-pic2.webp" alt="Рис.2. Пример первичных данных, полученных с квадрокоптера (2023)" width="1600" height="1199" loading="lazy" decoding="async">
                             <figcaption>Рис.2. Пример первичных данных, полученных с квадрокоптера (2023)</figcaption>
                         </figure>
     
@@ -135,12 +200,12 @@
                         </p>   
     
                         <figure>
-                            <img src="./assets/pel-pic3.png" alt="Рис.3. Пример размеченного изображения, где розовыми прямоугольниками отмечены взрослые особи, голубыми прямоугольниками – птенцы">
+                            <img src="./assets/pel-pic3.webp" alt="Рис.3. Пример размеченного изображения, где розовыми прямоугольниками отмечены взрослые особи, голубыми прямоугольниками – птенцы" width="1287" height="716" loading="lazy" decoding="async">
                             <figcaption>Рис.3. Пример размеченного изображения, где розовыми прямоугольниками отмечены взрослые особи, голубыми прямоугольниками – птенцы</figcaption>
                         </figure>
     
                         <figure>
-                            <img src="./assets/pel-pic4.png" alt="Рис.4. Более детальный пример размеченного изображения">
+                            <img src="./assets/pel-pic4.webp" alt="Рис.4. Более детальный пример размеченного изображения" width="1461" height="721" loading="lazy" decoding="async">
                             <figcaption>Рис.4. Более детальный пример размеченного изображения</figcaption>
                         </figure>
                         <p>
@@ -172,7 +237,7 @@
                                 Потребность в развертывании модели
                             </li>
                         </ul>
-                        <img src="./assets/scheme-1.png" alt="Схема 1">
+                        <img src="./assets/scheme-1.webp" alt="Схема 1" width="1026" height="1286" loading="lazy" decoding="async">
                         <p>
                             Этап 2
                         </p>
@@ -196,7 +261,7 @@
                                 Взаимодействие с сервисом через Телеграм-бота
                             </li>
                         </ul>
-                        <img src="./assets/scheme-2.png" alt="Схема 2">
+                        <img src="./assets/scheme-2.webp" alt="Схема 2" width="802" height="1230" loading="lazy" decoding="async">
                     </div>
 
                     <div id="section-4" class="article-section">                    
@@ -346,7 +411,7 @@
             <!-- Footer -->
             
             <footer>
-                <img src="./assets/footer-pic.jpg" />
+                <img src="./assets/footer-pic.webp" alt="Пеликаны на воде" width="987" height="430" loading="lazy" decoding="async">
                     <ul class="footer-list">
                         <a href="index.html#about">О нас</a>
                         <a href="index.html#team">Команда</a>
@@ -356,7 +421,7 @@
             </footer>
 
         </main>
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+        <script defer src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     </body>
 
 </html>
